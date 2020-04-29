@@ -40,7 +40,7 @@ tensorflow 2.0 + 自带tf.keras
 tensorflow 2.1 + 自带tf.keras
 ```
 
-不支持环境：
+确认不支持的环境：
 ```
 tensorflow 1.x + 自带tf.keras
 ```
