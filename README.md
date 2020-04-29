@@ -28,7 +28,7 @@ class MyDense(Dense):
         return super(MyDense, self).call(inputs)
 ```
 
-## 支持环境
+## 环境以来
 
 在下面的环境下测试通过：
 ```
@@ -39,6 +39,13 @@ tensorflow 2.1 + keras 2.3.1
 tensorflow 2.0 + 自带tf.keras
 tensorflow 2.1 + 自带tf.keras
 ```
+
+不支持环境：
+```
+tensorflow 1.x + 自带tf.keras
+```
+
+欢迎报告更多其他测试结果。
 
 ## 使用效果
 
