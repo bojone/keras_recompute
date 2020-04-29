@@ -40,6 +40,13 @@ tensorflow 2.0 + 自带tf.keras
 tensorflow 2.1 + 自带tf.keras
 ```
 
+## 使用效果
+
+- 在BERT Base版本下，batch_size可以增大为原来的3倍左右；
+- 在BERT Large版本下，batch_size可以增大为原来的4倍左右；
+- 每步的速度大约慢25%；
+- 理论上，层数越多，batch_size可以增大的倍数越大。
+
 ## 参考内容
 - https://kexue.fm
 - https://github.com/bojone/bert4keras
