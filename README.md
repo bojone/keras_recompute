@@ -25,7 +25,7 @@ from recompute import recompute_grad
 class MyDense(Dense):
     @recompute_grad
     def call(self, inputs):
-        super(MyDense, self).call(inputs)
+        return super(MyDense, self).call(inputs)
 ```
 
 ## 支持环境
