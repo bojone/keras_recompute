@@ -28,7 +28,7 @@ class MyDense(Dense):
         return super(MyDense, self).call(inputs)
 ```
 
-## 环境以来
+## 环境依赖
 
 在下面的环境下测试通过：
 ```
