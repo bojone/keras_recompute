@@ -47,6 +47,8 @@ tensorflow 1.x + 自带tf.keras
 
 欢迎报告更多其他测试结果。
 
+**强烈建议用keras 2.3.1配合tensorflow来跑，强烈不建议使用tensorflow 2.x自带的tf.keras来跑**
+
 ## 使用效果
 
 - 在BERT Base版本下，batch_size可以增大为原来的3倍左右；
