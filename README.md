@@ -51,7 +51,7 @@ tensorflow 1.x + 自带tf.keras
 
 - 在BERT Base版本下，batch_size可以增大为原来的3倍左右；
 - 在BERT Large版本下，batch_size可以增大为原来的4倍左右；
-- 每步的速度大约慢25%；
+- 平均每个样本的训练时间大约增加25%；
 - 理论上，层数越多，batch_size可以增大的倍数越大。
 
 ## 参考内容
