@@ -42,12 +42,11 @@ def recompute_grad(call):
         """定义需要求梯度的函数以及重新定义求梯度过程
         （参考自官方自带的tf.recompute_grad函数）
         """
+        flat_inputs = nest.flatten(inputs)
         call_args = tf_inspect.getfullargspec(call).args
         for key in ['mask', 'training']:
             if key not in call_args and key in kwargs:
                 del kwargs[key]
-
-        flat_inputs = nest.flatten(inputs)
 
         def kernel_call():
             """定义前向计算
